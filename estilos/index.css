@@ -45,7 +45,6 @@ main section.container-main-one
 {
     width: 100%;
     height: auto ;
-    
     background: linear-gradient(180deg, var(--blue-less) 20%, var(--blue-more));
 }
 main section.container-main-one div h1
@@ -57,26 +56,42 @@ main section.container-main-one div h1
     margin: 0 auto;
     color: var(--white);
 }
-main section.container-main-one div p
+p.plan-phone
 {
     text-align: center;
     color: var(--white);
     font-size: 2rem;
     padding-top: 30px;
 }
-main section div div
+.container-cel-phone
 {
-    width: 300px;
+    width: 310;
     display: flex;
+}
+.cel-phone
+{
+    min-width: 300px;
+    
 }
 main section div div img
 {
-    margin: 0 auto;
-    width: 200px;
+    width: 221px;
+    height: 304px;
+    margin: 5px auto;
 }
-main section div ul
+.spec-phone
 {
-    padding: 0px 50px;
+    margin-left: 50px;
+   font-size: 1rem;
+   color: var(--white);
+   
+}
+
+
+.url-contauner
+{
+    
+    padding: 0px 30px;
    
 }
 main section div ul li
